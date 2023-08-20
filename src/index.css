@@ -1,0 +1,509 @@
+:root {
+  --back-color: #ECE4CF;
+  --theme-color: #DEB887;
+}
+.hero {
+  background-image: url("../public/assets/front.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  font-size: 26px;
+  margin-top: -60px;
+  /* background-position: ; */
+
+
+
+}
+#nav{
+  color: rgb(99, 215, 99);
+}
+#nav:hover{
+  background-color: rgb(219, 205, 189);
+  /* font-size: 20px; */
+  border-radius: 6px;
+}
+.hero_text {
+  margin-left: 158px;
+  font-size: 25px;
+  size: 20px;
+}
+
+
+.super {
+  color: green;
+  font-size: 70px;
+}
+
+.on {
+  color:burlywood;
+  font-size: 48px;
+
+}
+#nav1{
+  /* background-color: rgb(131, 102, 102); */
+  background-color: #ECE4CF;
+}
+.shop{
+  color: white;
+  margin-left: 4px;
+  font-size: 21px;
+  background-color: transparent;
+  color: burlywood;
+}
+
+/* ---------------------------------------------product --------------- */
+.catalog{
+  height: 49vh;
+  width: 100%;
+  background-image: url(.././public/assets/catalog2.jpg);
+  background-size: cover;
+  margin-top: -30px;
+  /* background-position: top  20%; */
+}
+.product1 {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+  gap: 20px;
+}
+
+.product1 .pro {
+  flex: 1;
+  max-width: 276px; /* Adjust this value as needed */
+  margin: 1rem;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 10%;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  transition: 0.3s ease;
+}
+
+.product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+.product1 .pro img {
+  width: 100%;
+  border-radius: 10%;
+ height: 220px;.hero_text {
+  margin-left: 158px;
+  font-size: 25px;
+  size: 20px;
+}
+ /* min-width: 250px; */
+  
+}
+
+.product1 .pro .des {
+  text-align: start;
+  padding-top: 1px;
+  position: relative;
+
+}
+
+.product1 h2 {
+  font-size: 3rem;
+  color: var(--theme-color);
+}
+
+.product1 p {
+  font-size: large;
+  font-weight: 700;
+}
+.product1 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+.product1 .pro .des span {
+  font-size: 0.8rem;
+  margin: 3px;
+}
+
+.product1 .pro h5 {
+  font-size: large;
+  color: #1a1a1a;
+  font-weight: 700;
+  margin: 5px;
+
+}
+
+.product1 .pro .star i {
+  color: rgb(239, 203, 1);
+  margin: 5px;
+
+}
+
+.product1 .pro h4 {
+  color: #088178;
+  font-size: 1.5rem;
+  display: flex;
+  margin: 5px;
+
+  /* font-weight: 900; */
+
+}
+
+.product1 .pro .des .cart {
+  width: 48px;
+  height: 38px;
+  padding-top: 16px;
+  font-size: large;
+  color: #44aca5;
+  background-color: #c8ecea;
+  border-radius: 100%;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  align-items: center;
+}
+
+.product1 a {
+  text-decoration: none;
+
+}
+
+.pro-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* ---------------------------------------------------------- */
+#feature{
+  font-size: 3rem;
+  text-align: center;
+  color: burlywood;
+}
+
+/* ------------------------------------------banner--------- */
+#banner {
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../public/assets/banner.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-position: top 24% right 30%;
+ /* height: 36vh; */
+
+}
+
+#banner h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+#banner h2 {
+  color: white;
+  margin-top: 1.5rem;
+  margin-right: 23rem;
+  font-size: 2.5rem;
+}
+@media(max-width:780px){
+  #banner h2 {
+   
+    font-size: 1.6rem;
+    margin-left: 50px;
+    margin-right: 7rem;
+  }
+  #banner h4 {
+    font-size: 1.1rem;
+}
+  .hero {
+   background-position: left;
+
+   height: 77vh;
+}
+.message-text {
+ 
+  width: 77vw;
+ 
+}
+.super {
+
+  font-size: 49px;
+}
+.on {
+  font-size: 39px;
+}
+}
+
+#banner button,
+.normal {
+  width: 8.5rem;
+  height: 3rem;
+  margin: auto;
+  margin-bottom: 35px;
+  font-size: 1rem;
+  border-radius: 3.3rem;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s ease;
+
+}
+
+#banner button:hover,
+.normal:hover {
+  background-color: #088178;
+  color: white;
+  /* transition: 1.2; */
+  transform: scale(1.2);
+}
+
+/* ----------------------------------Wallet Connect section */
+.App-header {
+  position: relative;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 15px;
+  /* background-color: #b3efb6; */
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 29px; */
+}
+.connected-account {
+  margin-top: 10px;
+}
+
+.transactions {
+  margin-top: 10px;
+}
+/* ----------------------------------------ending of Wallet Section----------- */
+
+/* -----------------------------------coffee form section----------------------------------- */
+.form-form-container{
+  background-color:  #ECE4CF;
+  margin-top: -25px;
+  height: 100vh;
+}
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  /* height: 90vh; */
+  margin-top: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+
+/* --------------------------------------------ending of coffee form section---------------------- */
+
+
+/* ---------------------------------------starting of footer section------------------------------- */
+#footer{
+  background-image: url('../public/assets/footer.jpg');
+  background-size: cover ;
+  margin-top: 100px;
+}
+
+/* --------------------------------------video section-------------------------- */
+.video{
+  background-image: url('../public/assets/video_chat.jpg');
+  height: 40vh;
+  margin-top: -7px;
+  background-size: cover;
+}
+
+.video-stream{
+  height: 45vh;
+  width: 30vw;
+  /* border: 1px solid rgb(63, 93, 239); */
+  border-radius: 14%;
+  background-image: url('../public/assets/cam2.png');
+  background-size: contain;
+  background-position: bottom;
+  margin-left: 40px;
+  /* padding: 15px; */
+}
+
+.grid{
+      justify-content: space-around;
+      margin-left: 113px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.text-red-500 {
+  color: #ff0000;
+}
+.room{
+  width: 450px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 3%;
+  overflow: hidden;
+}
+.room h3{
+   background-color: rgb(222, 214, 214);
+   border: 1px solid rgb(241, 238, 238);
+   padding: 7px;
+}
+
+.image-list{
+  width: 80vw;
+}
+
+
+/* --------------------------------file upload--------------------------------- */
+
+.address{
+  width: 39%;
+}
+.get-data{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* ----------------------------------------------------------------- */
+
+/* ---------------------------------------oppostie gender-------------------------- */
+ 
+/* Styles for the profile card container */
+.opposite-gender-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+/* Styles for the individual profile card */
+.profile-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  margin: 5px 0;
+}
+
+/* ----------------------------------email section------------------------------- */
+/* email.css */
+
+.send-button {
+  background-color: #007bff; /* Blue color, you can change this */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+/* email.css */
+
+.email-container {
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--back-color);
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+}
+
+.email-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.email-table th,
+.email-table td {
+  padding: 10px;
+  border: 1px solid #b3ce80;
+  background-color: var(--back-color);
+  text-align: left;
+}
+.email-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* -------------------------------Pls pay---------------------------------- */
+.pls-pay {
+  font-size: 4rem;
+  text-align: center;
+  color: #333;
+}
+/* ----------------------------------------------------------------- */
